@@ -1,0 +1,6 @@
+Schema Name,TableName,Column Name,Column Cardinality,Table Cardinality,Data type,Length,Precision
+,,,,,,,
+schema1,testdf,name,10000,100000,varchar,30,
+schema1,testdf,city,100,100000,varchar,30,
+schema1,testdf,license_plate,10000,100000,varchar,10,10
+schema1,testdf,email,10000,100000,varchar,30,

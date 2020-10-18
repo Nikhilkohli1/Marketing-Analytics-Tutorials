@@ -1,0 +1,12 @@
+Schema Name,TableName,Column Name,Column Cardinality,Table Cardinality,Data type,Length,Precision
+,,,,,,,
+oltp_schema,order_master,id,500000,500000,bigint,,
+oltp_schema,order_master,order_date,365,500000,date,,
+oltp_schema,order_detail,id,1000000,1000000,bigint,,
+oltp_schema,order_detail,order_master_id,500000,1000000,bigint,,
+oltp_schema,order_detail,product_id,10000,1000000,char,15,
+oltp_schema,product,id,10000,10000,char,15,
+oltp_schema,product,product_description,10000,10000,varchar,50,10
+oltp_schema,product,product_group,1000,10000,char,10,
+log_schema,log,id,5000000,5000000,bigint,,
+log_schema,log,msg,5000000,5000000,varchar,128,16
